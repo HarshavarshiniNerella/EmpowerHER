@@ -1,0 +1,60 @@
+name: empowerher
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  fluttertoast: ^8.2.12
+  flutter:
+    sdk: flutter
+  intl: ^0.20.2
+  percent_indicator: ^4.2.2
+  table_calendar: ^3.0.9
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.14.3"
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "path/to/image.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  # Correctly add assets under this section
+  assets:
+    - assets/mentorship.png
+    - assets/events.png 
+    - assets/track.png  
+    - assets/resources.png 
+    - assets/tech_women.jpg
+    - assets/finance.jpg
+    # Your image asset
+    # You can add more assets here if needed, for example:
+    # - assets/another_image.png
+    # - assets/some_other_asset.json
